@@ -72,7 +72,7 @@ a:hover {
     display: flex;  
     flex-direction: column;
     text-align: center;
-    padding-bottom: 130px;
+    padding-bottom: 20px;
     font-size: 20px;
 }
 .div{
@@ -80,7 +80,7 @@ a:hover {
     background: linear-gradient(135deg, #64ffda 0%, #00b4d8 100%);
     color: #1a1a2e;
     width: 320px;
-    min-height: 200px;
+    min-height: 180px;
     border: none;
     text-align: center;
     padding: 30px 20px;
@@ -107,7 +107,19 @@ a:hover {
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  gap: 20px;
+ 
+}
+.div1{
+  border-radius: 15px;
+  background: linear-gradient(135deg, #64ffda 0%, #00b4d8 100%);
+  color: #1a1a2e;
+  width: 320px;
+  min-height: 250px;
+  border: none;
+  text-align: center;
+  padding: 30px 20px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 5px 20px rgba(100, 255, 218, 0.3);
 }
 .skill{
   background: linear-gradient(135deg, #0f3460 0%, #1a1a2e 100%);
