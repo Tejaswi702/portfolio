@@ -79,14 +79,23 @@ a:hover {
     border-radius: 15px;
     background: linear-gradient(135deg, #64ffda 0%, #00b4d8 100%);
     color: #1a1a2e;
-    width: 250px;
-    height: 150px;
+    width: 320px;
+    min-height: 200px;
     border: none;
     text-align: center;
-    padding-bottom: 40px;
+    padding: 30px 20px;
     transition: transform 0.3s ease;
     box-shadow: 0 5px 20px rgba(100, 255, 218, 0.3);
 }
+#skills .flex {
+  justify-content: center;
+  gap: 30px;
+}
+
+#skills .flex .div {
+  flex: 0 1 320px;
+}
+
 .div:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(100, 255, 218, 0.5);
