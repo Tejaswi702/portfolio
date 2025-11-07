@@ -40,8 +40,10 @@ a:hover {
   font-size: 20px;
 }
 #profileImage{
-    width: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
+    object-fit: cover;
     box-shadow: 0 10px 30px rgba(100, 255, 218, 0.3);
     transition: transform 0.3s ease;
 }
@@ -77,8 +79,8 @@ a:hover {
     border-radius: 15px;
     background: linear-gradient(135deg, #64ffda 0%, #00b4d8 100%);
     color: #1a1a2e;
-    width: 350px;
-    height: 220px;
+    width: 250px;
+    height: 150px;
     border: none;
     text-align: center;
     padding-bottom: 40px;
@@ -119,8 +121,8 @@ a:hover {
    border-radius: 15px;
    background: linear-gradient(135deg, #64ffda 0%, #00b4d8 100%);
    color: #1a1a2e;
-   width: 300px;
-   min-height: 280px;
+   width: 320px;
+   min-height: 360px;
    border: none;
    padding: 30px;
    font-size: 17px;
